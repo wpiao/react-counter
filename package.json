@@ -1,0 +1,25 @@
+{
+  "name": "react-counter",
+  "version": "1.0.0",
+  "description": "This is react based counter.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpiao/react-counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpiao/react-counter/issues"
+  },
+  "homepage": "https://github.com/wpiao/react-counter#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  }
+}
