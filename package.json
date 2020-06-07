@@ -2,7 +2,7 @@
   "name": "react-counter",
   "version": "1.0.0",
   "description": "This is a react based counter.",
-  "homepage": "https://wpiao.github.io/react-counter-lab27",
+  "homepage": "https://wpiao.github.io/react-counter",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
