@@ -1,18 +1,19 @@
-import React from 'react';
+import React from "react";
+import "./App.scss";
 
-import Header from './Header/Header.jsx';
-import Counter from './Counter/Counter.jsx';
-import Footer from './Footer/Footer.jsx';
+import Header from "./Header/Header.jsx";
+import Counter from "./Counter/Counter.jsx";
+import Footer from "./Footer/Footer.jsx";
 
 class App extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <div id="calculator">
         <Header />
         <Counter />
         <Footer />
-      </React.Fragment>
-    )
+      </div>
+    );
   }
 }
 

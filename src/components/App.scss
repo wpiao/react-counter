@@ -1,0 +1,43 @@
+$light-gray: #999;
+
+#calculator {
+  margin: 0 auto;
+  width: 320px;
+  height: 320px;
+  background: $light-gray;
+  text-align: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+#display {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  width: 40%;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  border-radius: 6px;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
