@@ -1,17 +1,18 @@
-import React from 'react';
+import React from "react";
+import "./App.scss";
 
-import Header from './Header.jsx';
-import Counter from './Counter.jsx';
-import Footer from './Footer.jsx';
+import Header from "./Header.jsx";
+import Counter from "./Counter.jsx";
+import Footer from "./Footer.jsx";
 
-const App = props => {
+const App = (props) => {
   return (
-    <React.Fragment>
+    <div className="counter">
       <Header />
       <Counter />
       <Footer />
-    </React.Fragment>
-  )
-}
+    </div>
+  );
+};
 
 export default App;

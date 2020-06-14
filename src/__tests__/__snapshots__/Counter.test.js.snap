@@ -2,7 +2,9 @@
 
 exports[`<Counter / should render correctly 1`] = `
 <div>
-  <div>
+  <div
+    className="display"
+  >
     0
   </div>
   <button

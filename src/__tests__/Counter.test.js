@@ -36,7 +36,7 @@ describe('<Counter /', () => {
     expect(app.find('div').at(1).text()).toEqual('-2');
   });
 
-  it('should render correctly', () => {
+  it("should render correctly", () => {
     const counter = renderer.create(<Counter />).toJSON();
     expect(counter).toMatchSnapshot();
   });
